@@ -1,0 +1,541 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1300px) {
+
+    .B_icon {
+        display: none;
+    }
+
+    .con1_arrow {
+        max-width: 1000px;
+    }
+
+    #content1,
+    #con1wrap {
+        height: 550px;
+    }
+
+    #content1 .backbox {
+        margin: 0 auto;
+        max-width: 950px;
+        height: 450px;
+    }
+
+    #content1 .con1top {
+        margin: 0 auto;
+        width: 900px;
+    }
+
+    .con4wrap ul li.cont4-1 img {
+        width: 378px;
+        height: 228px;
+    }
+
+    .con4wrap ul li.cont4-2 img {
+        width: 375px;
+        height: 258px;
+    }
+
+    .con4wrap ul li.cont4-3 img {
+        width: 432px;
+        height: 247px;
+    }
+
+    .con4wrap ul li.cont4-4 img {
+        width: 372px;
+        height: 272px;
+    }
+
+    .con4wrap ul li h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 51px;
+        color: #FFFFFF;
+    }
+
+    .con4wrap ul li p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    /* 통합 */
+    .con4wrap ul li .con4box {
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .fotUp {
+        display: none;
+    }
+
+    #PCbanner .bannerimage li.Bimg1 {
+        background: url(../img/banner_M1.png) no-repeat center center;
+    }
+
+    #PCbanner .bannerimage li.Bimg2 {
+        background: url(../img/banner_M2.png) no-repeat center center;
+    }
+
+    #PCbanner .bannerimage li.Bimg3 {
+        background: url(../img/banner_M3.png) no-repeat center center;
+    }
+
+    .bannerslide {
+        display: none;
+    }
+
+    .MTfooter {
+        display: block;
+    }
+
+    .PCfooter {
+        display: none;
+    }
+
+    #footer {
+        width: 100%;
+        height: 340px;
+        background-color: #293953;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footerline {
+        width: 96%;
+        height: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px 0;
+        /* position: relative; */
+    }
+
+    .footer_a {
+        margin-bottom: 5px;
+    }
+
+    .fot1 p {
+        text-align: center;
+    }
+
+    .familysite {
+        display: none;
+    }
+
+    .footersns {
+        gap: 0 20px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+
+    nav #PCnav {
+        display: none;
+    }
+
+    .con4btn {
+        display: none;
+    }
+
+    /* 모바일 메뉴 */
+    #m_navwrap {
+        display: none;
+        position: fixed;
+        top: 0px;
+        z-index: 999999;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    #m_nav {
+        position: absolute;
+        right: 0;
+        width: 75%;
+        height: 100vh;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        overflow-y: scroll;
+    }
+
+    .m_navtop {
+        width: 100%;
+        height: 80px;
+        background-color: #ee1c25;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .m_navtop .m_nav_login {
+        width: 75%;
+        display: flex;
+        gap: 0 30px;
+    }
+
+    .m_navtop .m_nav_login a {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .btnClose {
+        width: 15%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .m_navbottom {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .m_navbottom .m_nav1 {
+        width: 90%;
+        height: 65px;
+        border-bottom: 1px solid rgba(166, 145, 124, 0.2);
+        overflow-x: hidden;
+    }
+
+    .m_navbottom .m_nav1>a {
+        display: block;
+        height: 65px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 65px;
+        color: #000000;
+        background: url(../img/MT_SubOpen.svg) no-repeat center right;
+        transition: all ease 0.2s;
+    }
+
+    .m_navbottom .m_nav1>a.on {
+        display: block;
+        height: 65px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 65px;
+        color: #ee1c25;
+        background: url(../img/MT_SubOpen2.svg) no-repeat center right;
+    }
+
+    .m_navbottom .m_subnav {
+        padding: 0px 0 20px 20px;
+        border-bottom: 1px solid rgba(166, 145, 124, 0.2);
+    }
+
+    .m_navbottom .m_subnav a {
+        display: block;
+        height: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 40px;
+        color: #5E5E5E;
+    }
+
+    .f_color>a {
+        color: #293953;
+    }
+
+
+    #header {
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 99999;
+    }
+
+    #header #headerwrap {
+        width: 100vw;
+        height: 80px;
+        /* background-color: pink; */
+    }
+
+    #navRight {
+        display: none;
+    }
+
+    /* 로고 */
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translate(0, -50%);
+    }
+
+    .logo img {
+        width: 141px;
+        height: 31px;
+    }
+
+    /* 모바일 태블릿 메뉴아이콘 */
+    #btnOpen {
+        width: 35px;
+        height: 35px;
+        float: right;
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translate(0, -50%);
+    }
+
+    #banner {
+        padding-top: 80px;
+    }
+
+    #content1 {
+        display: none;
+    }
+
+    #content1_MT {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 536px;
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    #content1_MT .swiper-container {
+        width: 100%;
+        height: 436px;
+        position: relative;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+    }
+
+    #content1_MT .New {
+        color: red;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    #content1_MT h2 {
+        box-sizing: border-box;
+        width: 286px;
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        border-bottom: solid 1px #A6917C;
+        padding-bottom: 5px;
+        margin: 0 auto;
+    }
+
+    #content1_MT .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        margin: 20px 0 auto;
+    }
+
+    .swiper-slide > a > img{
+        width: 180px;
+        height: 230px;
+    }
+
+    #content1_MT div div a {
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 500;
+        padding-top: 25px;
+    }
+
+    #content1_MT div div .granola {
+        width: 120px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .rightvideo {
+        display: none;
+    }
+
+
+    #content4 .con4_bannerslide {
+        width: 130px;
+        position: absolute;
+        left: 50%;
+        top: 650px;
+        transform: translate(-50%, 0);
+        z-index: 999;
+    }
+
+    #content4 {
+        width: 100%;
+        height: 700px;
+    }
+
+    .con4wrap {
+        width: 100%;
+        height: 700px;
+    }
+
+    .con4wrap ul li.cont4-1 img,
+    .con4wrap ul li.cont4-3 img,
+    .con4wrap ul li.cont4-2 img,
+    .con4wrap ul li.cont4-4 img {
+        float: none;
+        margin-right: 0px;
+    }
+
+    /* 통합 */
+    .con4wrap ul li .con4box {
+        height: 650px;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    /* 4-1 */
+    .con4wrap ul li.cont4-1,
+    .con4wrap ul li.cont4-2,
+    .con4wrap ul li.cont4-3,
+    .con4wrap ul li.cont4-4 {
+        width: 100%;
+        height: 700px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .btnOpen img {
+        width: 30px;
+        height: 30px;
+    }
+    #content1_MT{
+        height: 480px;
+        padding-top: 50px;
+    }
+    #content1_MT .swiper-wrapper{
+        height: 300px;
+    }
+    .swiper-slide > a > img{
+        width: 150px;
+        height: 189px;
+    }
+
+    .con3wrap {
+        width: 95%;
+    }
+
+    .con4wrap ul li h2 {
+        font-size: 28px;
+    }
+    .con4wrap ul li.cont4-1 img {
+        width: 340px;
+        height: 205px;
+    }
+    .con4wrap ul li.cont4-2 img {
+        width: 300px;
+        height: 209px;
+    }
+    .con4wrap ul li.cont4-3 img {
+        width: 336px;
+        height: 191px;
+    }
+    .con4wrap ul li.cont4-4 img {
+        width: 302px;
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .m_navtop .m_nav_login{
+        gap: 0 10px;
+    }
+
+    #content1_MT{
+        height: 440px;
+        padding-top: 100px;
+    }
+    #content1_MT .swiper-wrapper{
+        height: 360px;
+    }
+    .swiper-slide > a > img{
+        width: 130px;
+        height: 159px;
+    }
+
+    #content2 .leftvideo{
+        height: 560px;
+    }
+    #content2 .leftvideo .cf_video{
+        flex-direction: column;
+        gap: 20px 0px;
+    }
+
+    .con3wrap .con3top h2{
+        font-size: 26px;
+    }
+    .con3wrap .con3top h3{
+        font-size: 20px;
+    }
+
+    .con3wrap ul.con3bottom img{
+        width: 97px;
+        height: 95px;
+    }
+    .con3wrap ul.con3bottom li p{
+        font-size: 18px;
+    }
+    .con3wrap ul.con3bottom li a:hover{
+        margin-top: 0px;
+    }
+
+    .con4wrap ul li h2 {
+        font-size: 25px;
+    }
+    .con4wrap ul li.cont4-1 img {
+        width: 320px;
+        height: 185px;
+    }
+    .con4wrap ul li.cont4-2 img {
+        width: 280px;
+        height: 189px;
+    }
+    .con4wrap ul li.cont4-3 img {
+        width: 316px;
+        height: 171px;
+    }
+    .con4wrap ul li.cont4-4 img {
+        width: 282px;
+        height: 205px;
+    }
+    
+
+    .fot1 a{
+        font-size: 14px;
+    }
+    .fot1 p{
+        font-size: 13px;
+    }
+    .fot1 p:last-child{
+        font-size: 13px;
+    }
+}
